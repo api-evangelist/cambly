@@ -1,8 +1,12 @@
 aid: cambly
 name: Cambly
-description: 'Cambly is a company surfaced as a portfolio company of bessemer-venture-partners, gv, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Cambly is an online English-language learning platform, founded in 2012 and based in San Francisco,
+  that connects English learners in more than 190 countries with native-speaking tutors over on-demand video
+  chat. Its consumer products include Cambly (adult learners), Cambly Kids (ages 4-15), Cambly Pro, and Cambly
+  for Organizations/Business. Backed by Bessemer Venture Partners, GV, and Y Combinator, the company operates a
+  marketplace connecting students and tutors with weekly payouts. Cambly does not currently publish a public
+  developer API or developer portal; this API Evangelist profile captures its public company surface, GitHub
+  organization, and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/cambly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +16,30 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.cambly.com/static/images/cambly-favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Education
+- Language Learning
+- EdTech
+- Tutoring
+- Video
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.cambly.com
+- type: GitHubOrganization
+  url: https://github.com/Cambly
+- type: Support
+  url: https://www.cambly.com/en/support
+- type: SignUp
+  url: https://www.cambly.com/onboarding
+- type: Login
+  url: https://www.cambly.com/student/login
+- type: TermsOfService
+  url: https://www.cambly.com/legal/user_agreement
+- type: PrivacyPolicy
+  url: https://www.cambly.com/legal/privacy_policy
+- type: DomainSecurity
+  url: security/cambly-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
